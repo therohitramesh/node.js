@@ -1,0 +1,428 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/rohitramesh/.nvm/v0.10.32/bin/node',
+1 verbose cli   '/home/rohitramesh/.nvm/v0.10.32/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'npm',
+1 verbose cli   '@v5.3.0' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'npm', null ]
+5 verbose cache add name=undefined spec="npm" args=["npm",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'npm',
+6 verbose parsed url   path: 'npm',
+6 verbose parsed url   href: 'npm' }
+7 verbose cache add [ '@v5.3.0', null ]
+8 verbose cache add name=undefined spec="@v5.3.0" args=["@v5.3.0",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '@v5.3.0',
+9 verbose parsed url   path: '@v5.3.0',
+9 verbose parsed url   href: '@v5.3.0' }
+10 verbose cache add name="" spec="v5.3.0" args=["","v5.3.0"]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'v5.3.0',
+11 verbose parsed url   path: 'v5.3.0',
+11 verbose parsed url   href: 'v5.3.0' }
+12 silly lockFile 660051d1-npm npm
+13 verbose lock npm /home/rohitramesh/.npm/660051d1-npm.lock
+14 silly lockFile 9881573f-v5-3-0 v5.3.0
+15 verbose lock v5.3.0 /home/rohitramesh/.npm/9881573f-v5-3-0.lock
+16 silly lockFile 9881573f-v5-3-0 v5.3.0
+17 silly lockFile 9881573f-v5-3-0 v5.3.0
+18 silly lockFile 660051d1-npm npm
+19 silly lockFile 660051d1-npm npm
+20 verbose addNamed [ 'v5.3.0', '' ]
+21 verbose addNamed [ null, '*' ]
+22 silly lockFile 7adf5390-v5-3-0 v5.3.0@
+23 verbose lock v5.3.0@ /home/rohitramesh/.npm/7adf5390-v5-3-0.lock
+24 verbose addNamed [ 'npm', '' ]
+25 verbose addNamed [ null, '*' ]
+26 silly lockFile 2f990b75-npm npm@
+27 verbose lock npm@ /home/rohitramesh/.npm/2f990b75-npm.lock
+28 silly addNameRange { name: 'v5.3.0', range: '*', hasData: false }
+29 verbose request where is /v5.3.0
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id 216a0f8eda9ee6bc
+32 verbose url raw /v5.3.0
+33 verbose url resolving [ 'https://registry.npmjs.org/', './v5.3.0' ]
+34 verbose url resolved https://registry.npmjs.org/v5.3.0
+35 verbose request where is https://registry.npmjs.org/v5.3.0
+36 info trying registry request attempt 1 at 16:11:05
+37 http GET https://registry.npmjs.org/v5.3.0
+38 silly addNameRange { name: 'npm', range: '*', hasData: false }
+39 verbose request where is /npm
+40 verbose request registry https://registry.npmjs.org/
+41 verbose url raw /npm
+42 verbose url resolving [ 'https://registry.npmjs.org/', './npm' ]
+43 verbose url resolved https://registry.npmjs.org/npm
+44 verbose request where is https://registry.npmjs.org/npm
+45 info trying registry request attempt 1 at 16:11:05
+46 verbose etag "5a29e9c8-6950e9"
+47 http GET https://registry.npmjs.org/npm
+48 info retry will retry, error on last attempt: Error: read ECONNRESET
+49 info retry will retry, error on last attempt: Error: read ECONNRESET
+50 info trying registry request attempt 2 at 16:11:30
+51 http GET https://registry.npmjs.org/v5.3.0
+52 info trying registry request attempt 2 at 16:11:30
+53 verbose etag "5a29e9c8-6950e9"
+54 http GET https://registry.npmjs.org/npm
+55 info retry will retry, error on last attempt: Error: read ECONNRESET
+56 info retry will retry, error on last attempt: Error: read ECONNRESET
+57 info trying registry request attempt 3 at 16:12:45
+58 verbose etag "5a29e9c8-6950e9"
+59 http GET https://registry.npmjs.org/npm
+60 info trying registry request attempt 3 at 16:12:45
+61 http GET https://registry.npmjs.org/v5.3.0
+62 silly registry.get cb [ 304, undefined ]
+63 verbose etag https://registry.npmjs.org/npm from cache
+64 silly registry.get cb [ 304, undefined ]
+65 silly lockFile 7adf5390-v5-3-0 v5.3.0@
+66 silly lockFile 7adf5390-v5-3-0 v5.3.0@
+67 silly addNameRange number 2 { name: 'npm', range: '*', hasData: true }
+68 silly addNameRange versions [ 'npm',
+68 silly addNameRange   [ '1.1.25',
+68 silly addNameRange     '1.2.32',
+68 silly addNameRange     '1.3.2',
+68 silly addNameRange     '1.3.4',
+68 silly addNameRange     '1.2.20',
+68 silly addNameRange     '1.2.21',
+68 silly addNameRange     '1.2.22',
+68 silly addNameRange     '1.2.23',
+68 silly addNameRange     '1.2.24',
+68 silly addNameRange     '1.2.25',
+68 silly addNameRange     '1.2.27',
+68 silly addNameRange     '1.2.28',
+68 silly addNameRange     '1.2.30',
+68 silly addNameRange     '1.2.31',
+68 silly addNameRange     '1.3.0',
+68 silly addNameRange     '1.3.1',
+68 silly addNameRange     '1.2.19',
+68 silly addNameRange     '1.1.70',
+68 silly addNameRange     '1.1.71',
+68 silly addNameRange     '1.3.5',
+68 silly addNameRange     '1.3.6',
+68 silly addNameRange     '1.3.7',
+68 silly addNameRange     '1.3.8',
+68 silly addNameRange     '1.3.9',
+68 silly addNameRange     '1.3.10',
+68 silly addNameRange     '1.3.11',
+68 silly addNameRange     '1.3.12',
+68 silly addNameRange     '1.3.13',
+68 silly addNameRange     '1.3.14',
+68 silly addNameRange     '1.3.15',
+68 silly addNameRange     '1.3.16',
+68 silly addNameRange     '1.3.17',
+68 silly addNameRange     '1.3.18',
+68 silly addNameRange     '1.3.20',
+68 silly addNameRange     '1.3.21',
+68 silly addNameRange     '1.3.22',
+68 silly addNameRange     '1.3.23',
+68 silly addNameRange     '1.3.24',
+68 silly addNameRange     '1.3.25',
+68 silly addNameRange     '1.3.26',
+68 silly addNameRange     '1.4.0',
+68 silly addNameRange     '1.4.1',
+68 silly addNameRange     '1.4.2',
+68 silly addNameRange     '1.4.3',
+68 silly addNameRange     '1.4.4',
+68 silly addNameRange     '1.4.5',
+68 silly addNameRange     '1.4.6',
+68 silly addNameRange     '1.4.7',
+68 silly addNameRange     '1.4.8',
+68 silly addNameRange     '1.4.9',
+68 silly addNameRange     '1.4.10',
+68 silly addNameRange     '1.4.11',
+68 silly addNameRange     '1.4.12',
+68 silly addNameRange     '1.4.13',
+68 silly addNameRange     '1.4.14',
+68 silly addNameRange     '1.4.15',
+68 silly addNameRange     '1.4.16',
+68 silly addNameRange     '1.2.8000',
+68 silly addNameRange     '1.4.17',
+68 silly addNameRange     '1.4.18',
+68 silly addNameRange     '1.4.19',
+68 silly addNameRange     '1.5.0-alpha-0',
+68 silly addNameRange     '1.5.0-alpha-1',
+68 silly addNameRange     '1.4.20',
+68 silly addNameRange     '1.5.0-alpha-2',
+68 silly addNameRange     '1.4.21',
+68 silly addNameRange     '1.5.0-alpha-3',
+68 silly addNameRange     '1.5.0-alpha-4',
+68 silly addNameRange     '2.0.0-alpha-5',
+68 silly addNameRange     '1.4.22',
+68 silly addNameRange     '1.4.23',
+68 silly addNameRange     '2.0.0-alpha.6.0',
+68 silly addNameRange     '1.4.24',
+68 silly addNameRange     '2.0.0-alpha.6',
+68 silly addNameRange     '2.0.0-alpha.7',
+68 silly addNameRange     '2.0.0-beta.0',
+68 silly addNameRange     '1.4.25',
+68 silly addNameRange     '2.0.0-beta.1',
+68 silly addNameRange     '1.4.26',
+68 silly addNameRange     '2.0.0-beta.2',
+68 silly addNameRange     '1.4.27',
+68 silly addNameRange     '2.0.0-beta.3',
+68 silly addNameRange     '1.4.28',
+68 silly addNameRange     '2.0.0',
+68 silly addNameRange     '2.0.1',
+68 silly addNameRange     '2.0.2',
+68 silly addNameRange     '2.1.0',
+68 silly addNameRange     '2.1.1',
+68 silly addNameRange     '2.1.2',
+68 silly addNameRange     '2.1.3',
+68 silly addNameRange     '2.1.4',
+68 silly addNameRange     '2.1.5',
+68 silly addNameRange     '2.1.6',
+68 silly addNameRange     '2.1.7',
+68 silly addNameRange     '2.1.8',
+68 silly addNameRange     '2.1.9',
+68 silly addNameRange     '2.1.10',
+68 silly addNameRange     '2.1.11',
+68 silly addNameRange     '2.1.12',
+68 silly addNameRange     '2.1.13',
+68 silly addNameRange     '2.1.14',
+68 silly addNameRange     '2.1.15',
+68 silly addNameRange     '2.1.16',
+68 silly addNameRange     '2.1.17',
+68 silly addNameRange     '2.1.18',
+68 silly addNameRange     '2.2.0',
+68 silly addNameRange     '2.3.0',
+68 silly addNameRange     '2.4.0',
+68 silly addNameRange     '2.4.1',
+68 silly addNameRange     '2.5.0',
+68 silly addNameRange     '2.5.1',
+68 silly addNameRange     '2.6.0',
+68 silly addNameRange     '2.6.1',
+68 silly addNameRange     '2.7.0',
+68 silly addNameRange     '2.7.1',
+68 silly addNameRange     '2.7.2',
+68 silly addNameRange     '2.7.3',
+68 silly addNameRange     '2.7.4',
+68 silly addNameRange     '2.7.5',
+68 silly addNameRange     '2.7.6',
+68 silly addNameRange     '2.8.0',
+68 silly addNameRange     '2.8.1',
+68 silly addNameRange     '2.8.2',
+68 silly addNameRange     '2.8.3',
+68 silly addNameRange     '2.8.4',
+68 silly addNameRange     '2.9.0',
+68 silly addNameRange     '2.9.1',
+68 silly addNameRange     '2.10.0',
+68 silly addNameRange     '2.10.1',
+68 silly addNameRange     '2.11.0',
+68 silly addNameRange     '2.11.1',
+68 silly addNameRange     '2.11.2',
+68 silly addNameRange     '2.11.3',
+68 silly addNameRange     '2.12.0',
+68 silly addNameRange     '3.0.0',
+68 silly addNameRange     '2.12.1',
+68 silly addNameRange     '2.13.0',
+68 silly addNameRange     '3.1.0',
+68 silly addNameRange     '2.13.1',
+68 silly addNameRange     '3.1.1',
+68 silly addNameRange     '3.1.2',
+68 silly addNameRange     '2.13.2',
+68 silly addNameRange     '3.1.3',
+68 silly addNameRange     '2.13.3',
+68 silly addNameRange     '3.2.0',
+68 silly addNameRange     '2.13.4',
+68 silly addNameRange     '3.2.1',
+68 silly addNameRange     '2.13.5',
+68 silly addNameRange     '3.2.2',
+68 silly addNameRange     '2.14.0',
+68 silly addNameRange     '3.3.0',
+68 silly addNameRange     '2.14.1',
+68 silly addNameRange     '2.14.2',
+68 silly addNameRange     '3.3.1',
+68 silly addNameRange     '2.14.3',
+68 silly addNameRange     '3.3.2',
+68 silly addNameRange     '2.14.4',
+68 silly addNameRange     '3.3.3',
+68 silly addNameRange     '2.14.5',
+68 silly addNameRange     '3.3.4',
+68 silly addNameRange     '2.14.6',
+68 silly addNameRange     '3.3.5',
+68 silly addNameRange     '3.3.6',
+68 silly addNameRange     '2.14.7',
+68 silly addNameRange     '2.14.8',
+68 silly addNameRange     '3.3.7',
+68 silly addNameRange     '3.3.8',
+68 silly addNameRange     '3.3.9',
+68 silly addNameRange     '3.3.10',
+68 silly addNameRange     '2.14.9',
+68 silly addNameRange     '3.3.11',
+68 silly addNameRange     '1.4.29',
+68 silly addNameRange     '3.3.12',
+68 silly addNameRange     '2.14.10',
+68 silly addNameRange     '3.4.0',
+68 silly addNameRange     '3.4.1',
+68 silly addNameRange     '2.14.11',
+68 silly addNameRange     '2.14.12',
+68 silly addNameRange     '3.5.0',
+68 silly addNameRange     '3.5.1',
+68 silly addNameRange     '2.14.13',
+68 silly addNameRange     '2.14.14',
+68 silly addNameRange     '3.5.2',
+68 silly addNameRange     '2.14.15',
+68 silly addNameRange     '3.5.3',
+68 silly addNameRange     '3.5.4',
+68 silly addNameRange     '3.6.0',
+68 silly addNameRange     '2.14.16',
+68 silly addNameRange     '2.14.17',
+68 silly addNameRange     '3.7.0',
+68 silly addNameRange     '3.7.1',
+68 silly addNameRange     '3.7.2',
+68 silly addNameRange     '2.14.18',
+68 silly addNameRange     '3.7.3',
+68 silly addNameRange     '2.14.19',
+68 silly addNameRange     '2.14.20',
+68 silly addNameRange     '3.7.4',
+68 silly addNameRange     '3.7.5',
+68 silly addNameRange     '2.14.21',
+68 silly addNameRange     '3.8.0',
+68 silly addNameRange     '2.14.22',
+68 silly addNameRange     '3.8.1',
+68 silly addNameRange     '3.8.2',
+68 silly addNameRange     '2.15.0',
+68 silly addNameRange     '2.15.1',
+68 silly addNameRange     '3.8.3',
+68 silly addNameRange     '2.15.2',
+68 silly addNameRange     '3.8.4',
+68 silly addNameRange     '3.8.5',
+68 silly addNameRange     '3.8.6',
+68 silly addNameRange     '2.15.3',
+68 silly addNameRange     '3.8.7',
+68 silly addNameRange     '2.15.4',
+68 silly addNameRange     '3.8.8',
+68 silly addNameRange     '3.8.9',
+68 silly addNameRange     '2.15.5',
+68 silly addNameRange     '3.9.0',
+68 silly addNameRange     '3.9.1',
+68 silly addNameRange     '2.15.6',
+68 silly addNameRange     '3.9.2',
+68 silly addNameRange     '3.9.3',
+68 silly addNameRange     '3.9.4',
+68 silly addNameRange     '3.9.5',
+68 silly addNameRange     '3.9.6',
+68 silly addNameRange     '3.10.0',
+68 silly addNameRange     '2.15.7',
+68 silly addNameRange     '3.10.1',
+68 silly addNameRange     '2.15.8',
+68 silly addNameRange     '3.10.2',
+68 silly addNameRange     '3.10.3',
+68 silly addNameRange     '3.10.4',
+68 silly addNameRange     '2.15.9',
+68 silly addNameRange     '3.10.5',
+68 silly addNameRange     '3.10.6',
+68 silly addNameRange     '3.10.7',
+68 silly addNameRange     '2.15.10',
+68 silly addNameRange     '3.10.8',
+68 silly addNameRange     '2.15.11',
+68 silly addNameRange     '3.10.9',
+68 silly addNameRange     '4.0.0',
+68 silly addNameRange     '4.0.1',
+68 silly addNameRange     '4.0.2',
+68 silly addNameRange     '3.10.10',
+68 silly addNameRange     '4.0.3',
+68 silly addNameRange     '4.0.5',
+68 silly addNameRange     '4.1.0',
+68 silly addNameRange     '4.1.1',
+68 silly addNameRange     '4.1.2',
+68 silly addNameRange     '4.2.0',
+68 silly addNameRange     '4.3.0',
+68 silly addNameRange     '4.4.0',
+68 silly addNameRange     '4.4.1',
+68 silly addNameRange     '4.4.2',
+68 silly addNameRange     '4.4.3',
+68 silly addNameRange     '4.4.4',
+68 silly addNameRange     '4.5.0',
+68 silly addNameRange     '2.15.12',
+68 silly addNameRange     '4.6.0',
+68 silly addNameRange     '4.6.1',
+68 silly addNameRange     '5.0.0',
+68 silly addNameRange     '5.0.1',
+68 silly addNameRange     '5.0.2',
+68 silly addNameRange     '5.0.3',
+68 silly addNameRange     '5.0.4',
+68 silly addNameRange     '5.1.0',
+68 silly addNameRange     '5.2.0',
+68 silly addNameRange     '5.3.0',
+68 silly addNameRange     '5.4.0',
+68 silly addNameRange     '5.4.1',
+68 silly addNameRange     '5.4.2',
+68 silly addNameRange     '5.5.0',
+68 silly addNameRange     '5.5.1',
+68 silly addNameRange     '5.6.0' ] ]
+69 verbose addNamed [ 'npm', '5.6.0' ]
+70 verbose addNamed [ '5.6.0', '5.6.0' ]
+71 silly lockFile 01e7628f-npm-5-6-0 npm@5.6.0
+72 verbose lock npm@5.6.0 /home/rohitramesh/.npm/01e7628f-npm-5-6-0.lock
+73 silly lockFile 38aa8321-stry-npmjs-org-npm-npm-5-6-0-tgz https://registry.npmjs.org/npm/-/npm-5.6.0.tgz
+74 verbose lock https://registry.npmjs.org/npm/-/npm-5.6.0.tgz /home/rohitramesh/.npm/38aa8321-stry-npmjs-org-npm-npm-5-6-0-tgz.lock
+75 verbose addRemoteTarball [ 'https://registry.npmjs.org/npm/-/npm-5.6.0.tgz',
+75 verbose addRemoteTarball   'b11e72cd5167df48b06c43474e9331fe848cb05e' ]
+76 info retry fetch attempt 1 at 16:13:01
+77 verbose fetch to= /tmp/npm-5005-kHtLibKX/registry.npmjs.org/npm/-/npm-5.6.0.tgz
+78 http GET https://registry.npmjs.org/npm/-/npm-5.6.0.tgz
+79 error fetch failed https://registry.npmjs.org/npm/-/npm-5.6.0.tgz
+80 info retry will retry, error on last attempt: Error: read ECONNRESET
+81 info retry fetch attempt 2 at 16:13:26
+82 verbose fetch to= /tmp/npm-5005-kHtLibKX/registry.npmjs.org/npm/-/npm-5.6.0.tgz
+83 http GET https://registry.npmjs.org/npm/-/npm-5.6.0.tgz
+84 error fetch failed https://registry.npmjs.org/npm/-/npm-5.6.0.tgz
+85 info retry will retry, error on last attempt: Error: read ECONNRESET
+86 info retry fetch attempt 3 at 16:14:41
+87 verbose fetch to= /tmp/npm-5005-kHtLibKX/registry.npmjs.org/npm/-/npm-5.6.0.tgz
+88 http GET https://registry.npmjs.org/npm/-/npm-5.6.0.tgz
+89 error fetch failed https://registry.npmjs.org/npm/-/npm-5.6.0.tgz
+90 silly lockFile 38aa8321-stry-npmjs-org-npm-npm-5-6-0-tgz https://registry.npmjs.org/npm/-/npm-5.6.0.tgz
+91 silly lockFile 38aa8321-stry-npmjs-org-npm-npm-5-6-0-tgz https://registry.npmjs.org/npm/-/npm-5.6.0.tgz
+92 silly lockFile 01e7628f-npm-5-6-0 npm@5.6.0
+93 silly lockFile 01e7628f-npm-5-6-0 npm@5.6.0
+94 silly lockFile 2f990b75-npm npm@
+95 silly lockFile 2f990b75-npm npm@
+96 error Error: failed to fetch from registry: https://registry.npmjs.org/v5.3.0
+96 error     at RegClient.<anonymous> (/home/rohitramesh/.nvm/v0.10.32/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:159:18)
+96 error     at cb (/home/rohitramesh/.nvm/v0.10.32/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:57:9)
+96 error     at RegClient.<anonymous> (/home/rohitramesh/.nvm/v0.10.32/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:156:10)
+96 error     at cb (/home/rohitramesh/.nvm/v0.10.32/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:166:9)
+96 error     at RegClient.<anonymous> (/home/rohitramesh/.nvm/v0.10.32/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:259:20)
+96 error     at Request._callback (/home/rohitramesh/.nvm/v0.10.32/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:238:20)
+96 error     at self.callback (/home/rohitramesh/.nvm/v0.10.32/lib/node_modules/npm/node_modules/request/request.js:236:22)
+96 error     at Request.emit (events.js:117:20)
+96 error     at ClientRequest.self.clientErrorHandler (/home/rohitramesh/.nvm/v0.10.32/lib/node_modules/npm/node_modules/request/request.js:341:10)
+96 error     at ClientRequest.emit (events.js:95:17)
+97 error If you need help, you may report this *entire* log,
+97 error including the npm and node versions, at:
+97 error     <http://github.com/npm/npm/issues>
+98 error System Linux 4.13.0-26-generic
+99 error command "/home/rohitramesh/.nvm/v0.10.32/bin/node" "/home/rohitramesh/.nvm/v0.10.32/bin/npm" "install" "-g" "npm" "@v5.3.0"
+100 error cwd /media/rohitramesh/DATA/Projects/Node.js
+101 error node -v v0.10.32
+102 error npm -v 1.4.28
+103 verbose exit [ 1, true ]
